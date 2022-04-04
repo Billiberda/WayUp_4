@@ -1,0 +1,162 @@
+body {
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background: rgba(78,190,253,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,190,253,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient (left top, right bottom, color-stop (0%, rgba(78,190,253,1)), color-stop (100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,190,253,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,190,253,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,190,253,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,190,253,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefd', endColorstr='#378fd9', GradientType=1 );
+    color: white;
+}
+
+.offer {
+    width: 580px;
+}
+
+.title {
+    width: 555px;
+}
+
+.title span {
+    font-size: 32px;
+}
+
+.intro {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    width: 410px;
+}
+
+.btn {
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    background: #ffd429;
+    color: black;
+    padding: 15px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #c49d0e;
+}
+
+.desctop {
+    margin-top: 60px;
+    padding-bottom: 150px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+
+.section1 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.opportunities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posibility {
+    background: url("../img/icon2.png") top center no-repeat;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.posibility-text {
+    margin-top: 7px;
+    width: 289px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+.posibility-travel {
+    background: url("../img/icon.png") top center no-repeat; 
+    width: 260px;
+}
+
+.posibility-value {
+    background: url("../img/icon3.png") top center no-repeat;
+}
+
+.section2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #ecf3f8;
+}
+
+.title-order {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    width: 340px;
+    margin-bottom: 15px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-btn {
+    border: none;
+    width: 340px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 65px 0;
+    background: #164d7a;
+}
+
+.credits {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
